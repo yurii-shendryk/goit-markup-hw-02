@@ -1,10 +1,10 @@
 body {
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 
 .page-header {
-    font-size: 14px;
     font-weight: 500;
 }
 
@@ -55,7 +55,8 @@ list-style-type: none;
 .hero-title {
     font-size: 44px;
     font-weight: 900;
-    color: #FFFFFF;
+    line-height: 60px;
+    color: #FFFFFF;    
 }
 
 .hero-button {
@@ -64,11 +65,72 @@ list-style-type: none;
     background-color: #2196F3;
     font-size: 16px;
     font-weight: 700;
+    line-height: 30px;
     color: #FFFFFF;    
 }
 
 .features {
-    font-size: 14px;
+    color: #757575;    
+    line-height: 24px;
+}
+
+.features-list {
+    list-style-type: none;
+}
+
+.features-item-title {
+    color: #212121;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.occupation-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.occupation-list {
+    list-style-type: none;   
+}
+
+.team {
+    background-color: #F5F4FA;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.team-list {
+    list-style-type: none;
+}
+
+.team-list-item-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+}
+
+.page-footer {
+    background-color: #2F303A;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.page-footer-address {
+    font-style: normal;
+}
+
+.page-footer-address-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.6;
 }
 
 .page-footer .site-logo {
