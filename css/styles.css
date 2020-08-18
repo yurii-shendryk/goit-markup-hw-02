@@ -48,6 +48,29 @@ list-style-type: none;
     color: #2196F3;
 }
 
+.hero {
+    background-color: #2F303A;
+    
+}
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;    
+}
+
+.features {
+    font-size: 14px;
+}
+
 .page-footer .site-logo {
     color: #FFFFFF;
 }
